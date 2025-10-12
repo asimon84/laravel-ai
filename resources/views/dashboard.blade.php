@@ -21,6 +21,8 @@
     </div>
 
     <script>
+        window.route = "{{ route('chart-records') }}";
+
         {!! Vite::content('resources/js/dashboard.js') !!}
     </script>
 </x-layouts.app>
